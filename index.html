@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>doczilla</title>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<header class="header">
+			<nav class="navbar">
+				<img src="./assets/svg/Frame_8 1.svg" alt="LOGO" class="navbar__logo" />
+				<ul class="navbar__nav">
+					<li><a href="#">Запись</a></li>
+					<li><a href="#">Тезисы</a></li>
+					<li><a href="#">Модули</a></li>
+					<li><a href="#">Кейс</a></li>
+				</ul>
+				<button class="navbar__btn">Записаться</button>
+			</nav>
+			<div class="header__content">
+				<p class="header__date">26 Мая, 17:00</p>
+				<h2 class="header__title">
+					Как превратить скучный шаблон в понятный и быстрый документ
+				</h2>
+				<div class="header__btn">
+					<img
+						class="button__img"
+						src="./assets/svg/Frame 15398.svg"
+						alt="button img"
+					/>
+					<button>Зарегистрироваться</button>
+					<img src="./assets/svg/Frame 8.svg" alt="button icon" />
+				</div>
+
+				<p class="header__info">
+					Подарок: “Топ 15 сервисов для современного юриста”
+				</p>
+			</div>
+		</header>
+		<!-- content -->
+		<main>
+			<!-- Abstracts -->
+			<section class="abstracts">
+				<h2 class="abstracts__title">Тезисы вебинара</h2>
+				<div class="abstracts__info">
+					<div class="abstracts__left">
+						<img src="./assets/png/Rectangle 2.png" alt="abstracts image" />
+					</div>
+					<div class="abstracts__right">
+						<details class="dropDown" tabindex="1">
+							<summary tabindex="1"><span>Глубокая аналитика</span></summary>
+							<p>
+								В модуле вы изучите как правильно проводить глубокую аналитику и
+								какие инструменты могут вам помочь в процессе
+							</p>
+						</details>
+						<details class="dropDown fixed__one">
+							<summary tabindex="2">
+								<span>Совместное хранение документов</span>
+							</summary>
+							<p>
+								В модуле вы изучите как и где правильно хранить совместно
+								документы
+							</p>
+						</details>
+						<details class="dropDown fixed__two">
+							<summary tabindex="3">
+								<span>Конструктор документов</span>
+							</summary>
+							<p>
+								В модуле вы изучите как совместаня работа может улучшить ваше
+								качество работы
+							</p>
+						</details>
+						<details class="dropDown fixed__four">
+							<summary tabindex="4">
+								<span>Совместная работа</span>
+							</summary>
+							<p>
+								В модуле вы изучите как правильно использовать библиотеку
+								знаний, где так же вы можете брать нужную информацию
+							</p>
+						</details>
+						<details class="dropDown">
+							<summary tabindex="5">
+								<span class="fixed__three">Глубокая аналитика</span>
+							</summary>
+							<p>
+								В модуле вы изучите как правильно проводить глубокую аналитику и
+								какие инструменты могут вам помочь в процессе
+							</p>
+						</details>
+					</div>
+				</div>
+			</section>
+			<!-- Модули Doczilla -->
+			<section class="slider__wrapper" id="doczilla">
+				<h2 class="slider__title">Модули Doczilla</h2>
+				<div class="slider__bar">
+					<div class="previous slider__icon">
+						<img src="./assets/svg/Frame 8 (1).svg" alt="icon previous" />
+					</div>
+					<div class="slider__item">
+						<div class="slider__img-one"></div>
+						<p>Как работать с документами по-новому</p>
+						<button>Подробнее</button>
+					</div>
+					<div class="slider__item">
+						<div class="slider__img-two"></div>
+						<p>Неюридические пользователи документов</p>
+						<button>Подробнее</button>
+					</div>
+					<div class="slider__item">
+						<div class="slider__img-three"></div>
+						<p>Общие проблемы с классическими документами</p>
+						<button>Подробнее</button>
+					</div>
+					<div class="slider__item">
+						<div class="slider__img-four"></div>
+						<p>Несовместимость классических документов с автоматизацией</p>
+						<button>Подробнее</button>
+					</div>
+					<div class="slider__item">
+						<div class="slider__img-five"></div>
+						<p>Работа с текстом, струтурой и архитектурой документооборота</p>
+						<button>Подробнее</button>
+					</div>
+					<div class="slider__item slider__item">
+						<div class="slider__img-six"></div>
+						<p>
+							Работа в конструкторе документов на практике - живая демонстрация
+						</p>
+						<button>Подробнее</button>
+					</div>
+					<div class="next slider__icon">
+						<img src="./assets/svg/Frame 8 (1).svg" alt="icon next" />
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<h2 class="contact__title">Связаться с нами</h2>
+			<form
+				target="_blank"
+				action="https://formsubmit.co/islamjan.m.m@gmail.com"
+				method="POST"
+				class="contact__form"
+			>
+				<div class="form-group">
+					<div class="col">
+						<input
+							type="text"
+							name="name"
+							class="form-control"
+							placeholder="Имя"
+							required
+						/>
+						<input
+							type="email"
+							name="email"
+							class="form-control"
+							placeholder="Почта"
+							required
+						/>
+					</div>
+					<div class="col col__block-margin">
+						<input
+							type="number"
+							name="phone"
+							class="form-control"
+							placeholder="Номер телефона"
+							required
+						/>
+						<input
+							type="text"
+							name="Organization"
+							class="form-control"
+							placeholder="Организация"
+							required
+						/>
+					</div>
+				</div>
+				<div class="contact__btn">
+					<button type="submit" class="btn btn-lg btn-dark btn-block">
+						Зарегистрироваться
+					</button>
+				</div>
+			</form>
+		</footer>
+	</body>
+</html>
